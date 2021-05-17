@@ -7,7 +7,7 @@ const Question = (props) => (
   <div className="question">
     <QuestionBody 
       iconType="symbolQuestion" 
-      text="Kdo jinému jámu kopá, sám do ní padá"
+      text={props.text}
     />
     <div className="question__options">
       <Option type="smileyStrongYes" text="Souhlasím"/>
