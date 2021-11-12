@@ -6,11 +6,6 @@ import './style.css';
 
 const Question = ({text}) =>{
   const [answer, setAnswer] = useState("symbolQuestion");
-  const [answered, setAnswered] = useState(false);
-
-  const chooseIcon = (answer) => {
-    setAnswer(answer);
-  }
 
   const handleSelect = (iconType) => {
     setAnswer(iconType)
